@@ -1,5 +1,2 @@
 .DS_Store
-push.sh
-_site/
-node_modules/
-.venv/
+*.tex
