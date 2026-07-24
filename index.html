@@ -399,23 +399,23 @@ html.reveal-ready [data-reveal].in{opacity:1;transform:none;}
       </div>
       <div class="feat__links">
         <a class="btn" href="https://github.com/KempnerInstitute/KempnerForge" target="_blank" rel="noopener">GitHub ↗</a>
-        <a class="btn btn--ghost" href="#" title="Prototype link">Docs ↗</a>
+        <a class="btn btn--ghost" href="https://kempnerinstitute.github.io/KempnerForge/" target="_blank" rel="noopener">Docs ↗</a>
       </div>
     </div>
 
     <div class="proj-grid">
       <div class="proj">
-        <span class="proj__role">Multimodal research</span>
-        <h3 class="proj__name">Multimodal / VLM</h3>
-        <p>Training and reproducible-experiment infrastructure for the institute's vision-language research — SLURM launch, wandb-frozen reproducibility, and shared environment caching for repeatable runs.</p>
-        <div class="tags"><span class="tag2">PyTorch</span><span class="tag2">VLM</span><span class="tag2">SLURM</span><span class="tag2">wandb</span></div>
+        <span class="proj__role">Multimodal research · VLM design space</span>
+        <h3 class="proj__name">Cross-Modality Transfer in VLMs</h3>
+        <p>A controlled study of how vision-language model design shapes what transfers between modalities. Sweeping 50+ configurations — six image tokenizers, three fusion architectures (joint-decoder, cross-attention, Mixture-of-Transformers), and layer-freezing strategies — we find image→text reasoning transfers well when the text is a structural serialization of the scene, while text→image transfer stays weak, a gap that persists in frontier open-weight models (Qwen2.5-VL, InternVL3, Gemma-3).</p>
+        <div class="tags"><span class="tag2">VLM</span><span class="tag2">Cross-modality transfer</span><span class="tag2">Tokenizers</span><span class="tag2">Mixture-of-Transformers</span></div>
         <a class="proj__link" href="#" title="Prototype link">Details ↗</a>
       </div>
       <div class="proj">
         <span class="proj__role">Open science · enablement</span>
         <h3 class="proj__name">Kempner Computing Handbook</h3>
-        <p>The institute's public HPC handbook — getting started on the Kempner AI cluster, SLURM, GPU computing, scaling, and performance monitoring on one of the fastest academic clusters in the world.</p>
-        <div class="tags"><span class="tag2">Jupyter Book</span><span class="tag2">HPC</span><span class="tag2">Docs</span></div>
+        <p>The R&amp;E team's living field guide for research at scale — well past getting-started material. It threads reproducible software-engineering practice through the team's open-source stack (KempnerForge for distributed training, KempnerPulse for real-time GPU telemetry, TATM for data tokenization), distributed training and inference recipes, GPU profiling and parallel I/O, NeuroAI pipelines, hands-on workshops, and a technical blog with head-to-head GPU benchmarks.</p>
+        <div class="tags"><span class="tag2">HPC</span><span class="tag2">Distributed training</span><span class="tag2">Reproducibility</span><span class="tag2">Open source</span></div>
         <a class="proj__link" href="https://handbook.eng.kempnerinstitute.harvard.edu/" target="_blank" rel="noopener">Read it ↗</a>
       </div>
     </div>
